@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0>
+    <link rel="shortcut icon" href="faavicon.ico">
+    <title>Student Details</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<div class="body">
+
+    <div class="form">
+        <div class="margin">
+            <div class="label">
+                <form id="form-inputs" onsubmit="displayDetails(event)">
+
+                    <label class="fname">Name</label>
+                    <input type="text" id="fname" name="fname" maxlength="50" size="30" placeholder="eg:run s "><br><br>
+                    <label class="regno">Reg No</label>
+                    <input type="text" id="regno" name="regno" size="30" placeholder="19CSR123"><br><br>
+                    <label class="email">Email</label>
+                    <input type="email" id="email" name="email" size="30" placeholder="eg:someone@gmail.com"><br><br><br>
+
+                    <button class="btn ">Add<br><br>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div >
+    <button class="reset" id="reset" onclick="resett()">Reset</button>
+            </div>
+            <center>
+                <table id="myrow">
+                    <tr>
+                        <div class="caption">STUDENT DETAILS</caption>
+                        </div>
+                        <hr width="300">
+                        <th width="13">Name</th>
+                        <th width="12">Reg No</th>
+                        <th width="25">Email</th>
+                        <th width="5px">Remove</th>
+
+                    </tr>
+                </table>
+            </center>
+            <script type="text/javascript" src="script.js">
+            </script>
+
+            </body>
+        </div>
+
+</html>
